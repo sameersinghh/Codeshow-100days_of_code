@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+
+ int number1, number2; //intialisation of variables
+ cout<<"Please input two numbers to compare the both"<<endl; //Asking user for input
+ cin>>number1>>number2; //taking input numbers
+
+ if (number1>number2)  //condition for comparison
+ {
+     cout<<number1<<" is greater than "<<number2;
+ }
+ else
+ {
+      cout<<number2<<" is greater than "<<number1;
+ }
+    return 0;
+}
