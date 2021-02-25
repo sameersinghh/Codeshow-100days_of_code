@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+
+ int n; //initialisation of variable
+ cout<<"Please input a number"<<endl; //asking user for input
+ cin>>n; //input given 
+
+ if (n%2==0) //condition for checking 
+ {
+     cout<<"Even"<<endl;
+ }
+ else
+ {
+     cout<<"Odd"<<endl;
+ }
+    return 0;
+}
