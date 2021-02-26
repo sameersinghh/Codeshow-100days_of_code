@@ -1,0 +1,12 @@
+#include<iostream>
+#define LIMIT 100
+
+int main()
+{
+
+for (int i = 1; i <= LIMIT; i++)
+{
+    std::cout<<i<<"\n";
+}
+    return 0;
+}
