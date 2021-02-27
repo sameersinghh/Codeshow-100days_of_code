@@ -1,0 +1,20 @@
+#inlcude <iostream>
+using namespace std;
+
+int main(){
+
+int side1,side2; //intialisation of variables
+cout<<"Please input sides"<<endl;  //asking user for input
+cin>>side1>>side2;  //taking input
+
+if(side1==side2)  //condition for checking whether it is a square or not
+{  
+cout<<"It is a square";
+}
+else
+{
+ cout<<"It is a rectangle";
+}
+
+return 0;
+}
