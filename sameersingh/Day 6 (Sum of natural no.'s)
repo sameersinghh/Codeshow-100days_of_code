@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+
+ int n;  //intialisation of variable
+ cout<<"Please input a number \n";  //asking user to input a number
+ cin>>n;  //taking input 
+
+ int sum=0; //declaration of desired input
+
+ for (int i = 1; i <=n; i++) 
+ {
+    sum+=i;
+ }
+ cout<<sum;  //displaying required sum of 'n' natural no.'s
+
+    return 0;
+}
