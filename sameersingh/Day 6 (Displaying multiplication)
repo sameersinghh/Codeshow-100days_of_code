@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+
+ int n;  //intialisation of variable
+ cout<<"Please input a number \n";  //asking input from user
+ cin>>n;  //taking input
+
+ for (int i = 1; i<=20; i++)  //multiplication table till 20 using 'for' loop
+ {
+    cout<<n<<"*"<<i<<"="<<n*i<<endl;
+ }
+    return 0;
+}
