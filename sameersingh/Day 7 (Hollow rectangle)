@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+
+ int row,col;  //intialisation of rows & columns variables
+ cout<<"Please input no.'s of rows & columns \n";  //asking user for input 
+ cin>>row>>col;  //taking input
+
+ for (int i = 1; i <=row; i++)  //'for' loop to print solid rectangle
+ {
+     for (int j = 1; j<=col; j++)
+     {
+         if (i==1 || i==row || j==1 || j==col)
+         {
+             cout<<"*";
+         }
+         else
+         {
+             cout<<" ";
+         }
+         
+     }
+     cout<<endl;
+ }
+    return 0;
+}
