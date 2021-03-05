@@ -4,10 +4,10 @@ using namespace std;
 int main(){
 
  int n;  //initialisation of variable
- cout<<"Please input a number to print diamond pattern \n";  //asking user for input
+ cout<<"Please input a number to print solid rhombus pattern \n";  //asking user for input
  cin>>n;  //taking input
 
- for (int i = 1; i <=n; i++)  //'for' loop to construct solid rhombus
+ for (int i = 1; i <=n; i++)  //'for' loop to construct solid rhombus pattern 
  {
      for (int j= 1; j<=n-i; j++)
      {
