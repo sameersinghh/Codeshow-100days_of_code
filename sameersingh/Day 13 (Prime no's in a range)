@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+
+ int a,b;  //initialisation of variable
+ cout<<"Please input numbers \n";  //asking user for input
+ cin>>a>>b;  //taking input
+
+ int i,j;
+
+ for (i = a; i <=b ; i++)  //'for' loop to count all numbers from 'a' till 'b' 
+ {
+   for (j = 2; j <=i ; j++)
+   {
+       if (i%j==0)  //condition to check whether prime or not
+       {
+           break;
+       }   
+   }
+    if (j==i)  //to ensure that loop is completed first
+       {
+           cout<<i<<" "<<endl;
+       }
+ }
+    return 0;
+}
