@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+
+ int n;  //initialisation of variable
+ cout<<"Please input a number \n";  //asking user for input
+ cin>>n;  //taking input
+
+ for (int i = 1; i <=n ; i++)  //'for' loop to count all numbers till 'n' 
+ {
+    if (i%2==0)  //i is even
+    {
+        continue;
+    }
+    else  //i is odd and only odd no's will be printed
+    {
+        cout<<i<<" ";
+    }
+ }
+    return 0;
+}
