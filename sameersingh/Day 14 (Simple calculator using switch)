@@ -1,0 +1,45 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+
+ int n1,n2;
+ cout<<"Please input two no's"<<endl;
+ cin>>n1>>n2;
+
+ char op;
+ cout<<"Enter operand \n";
+ cin>>op;
+
+ switch (op)
+ {
+ case '+':
+     cout<<n1+n2;
+     break;
+
+ case '-':
+     if (n1>n2)
+     {
+         cout<<n1-n2;
+     }
+     else
+     {
+         cout<<n2-n1;
+     }
+          break;
+
+ case '/':
+     cout<<n1/n2;
+     break;
+
+case '*':
+     cout<<n1*n2;
+     break;
+
+ default:
+     cout<<"Please select an operator to perform calculations \n";
+     break;
+ }
+
+    return 0;
+}
